@@ -30,7 +30,14 @@ const MuiTypography=()=> {
     h6 heading
     </Typography>
 
+    <Typography variant='subtitle1'>
+    subtitle1
+    </Typography>
     
+
+    <Typography variant='subtitle2'>
+        subtitle2
+    </Typography>
 
 
     </>
