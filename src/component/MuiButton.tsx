@@ -1,12 +1,12 @@
 import React from 'react'
-import {Button} from '@mui/material'
+import {Button, Stack} from '@mui/material'
 function MuiButton() {
   return (
-    <div>
+    <Stack>
       <Button variant="text">Text</Button>
       <Button variant="contained">contained</Button>
       <Button variant="outlined">outlined</Button>
-    </div>
+    </Stack>
   )
 }
 
