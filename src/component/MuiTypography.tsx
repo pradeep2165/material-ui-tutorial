@@ -16,7 +16,7 @@ const MuiTypography=()=> {
     h3 heading
     </Typography>
 
-    <Typography variant='h4' component='h1'>    
+    <Typography variant='h4' component='h1' gutterBottom>    
     h4 heading
     </Typography>
     
