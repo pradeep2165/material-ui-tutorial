@@ -83,7 +83,7 @@ function MuiButton() {
         </Button>
       </Stack>
       <Stack spacing={2} direction="row">
-        <Button variant="contained" startIcon={<SendIcon />}>
+        <Button variant="contained" startIcon={<SendIcon />} disableElevation>
           Send
         </Button>
         <Button variant="contained" endIcon={<SendIcon />}>
