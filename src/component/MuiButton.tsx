@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, Stack } from "@mui/material";
+import { Button, Stack, IconButton } from "@mui/material";
+import SendIcon from "@mui/icons-material/Send";
 function MuiButton() {
   return (
     <Stack>
@@ -80,6 +81,18 @@ function MuiButton() {
         <Button variant="contained" size="large">
           Large
         </Button>
+      </Stack>
+      <Stack spacing={2} direction="row">
+        <Button variant="contained" startIcon={<SendIcon />}>
+          Send
+        </Button>
+        <Button variant="contained" endIcon={<SendIcon />}>
+          Send
+        </Button>
+
+        <IconButton aria-label="send">
+          <SendIcon />
+        </IconButton>
       </Stack>
     </Stack>
   );
