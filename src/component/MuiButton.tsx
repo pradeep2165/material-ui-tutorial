@@ -1,13 +1,77 @@
-import React from 'react'
-import {Button, Stack} from '@mui/material'
+import React from "react";
+import { Button, Stack } from "@mui/material";
 function MuiButton() {
   return (
-    <Stack spacing={2} direction='row'>
-      <Button variant="text" href='https://google.com'>Text</Button>
-      <Button variant="contained">contained</Button>
-      <Button variant="outlined">outlined</Button>
+    <Stack>
+      <Stack spacing={2} direction="row">
+        <Button variant="text" href="https://google.com">
+          Text
+        </Button>
+        <Button variant="contained">contained</Button>
+        <Button variant="outlined">outlined</Button>
+      </Stack>
+      <Stack spacing={2} direction="row">
+        <Button variant="contained" color="primary">
+          Primary
+        </Button>
+        <Button variant="contained" color="secondary">
+          Seconary
+        </Button>
+        <Button variant="contained" color="error">
+          Error
+        </Button>
+        <Button variant="contained" color="warning">
+          Warning
+        </Button>
+        <Button variant="contained" color="info">
+          Info
+        </Button>
+        <Button variant="contained" color="success">
+          Success
+        </Button>
+      </Stack>
+      <Stack spacing={2} direction="row">
+        <Button variant="text" color="primary">
+          Primary
+        </Button>
+        <Button variant="text" color="secondary">
+          Seconary
+        </Button>
+        <Button variant="text" color="error">
+          Error
+        </Button>
+        <Button variant="text" color="warning">
+          Warning
+        </Button>
+        <Button variant="text" color="info">
+          Info
+        </Button>
+        <Button variant="text" color="success">
+          Success
+        </Button>
+      </Stack>
+      <Stack spacing={2} direction="row">
+        <Button variant="outlined" color="primary">
+          Primary
+        </Button>
+        <Button variant="outlined" color="secondary">
+          Seconary
+        </Button>
+        <Button variant="outlined" color="error">
+          Error
+        </Button>
+        <Button variant="outlined" color="warning">
+          Warning
+        </Button>
+        <Button variant="outlined" color="info">
+          Info
+        </Button>
+        <Button variant="outlined" color="success">
+          Success
+        </Button>
+      </Stack>
     </Stack>
-  )
+  );
 }
 
-export default MuiButton
+export default MuiButton;
